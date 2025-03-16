@@ -1,12 +1,16 @@
-# React + Vite
+# Lifting State with Arrays in React Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Component Hierarchy and Layout
 
-Currently, two official plugins are available:
+### Learning objective: By the end of this lesson, students will be able to plan out a component hierarchy for a React App.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![alt text](src/image/reusable-chd.png)
 
-## Expanding the ESLint configuration
+## Learning objective: By the end of this lesson, students will be able to plan out a component hierarchy for a React App.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+In the following sections, we’ll get some practice with rendering arrays of objects and initializing state in React. We’ll also learn how to update arrays in state.
+
+Our goal is to create a Shop component where users can select items they wish to add to their cart. Take a look at the screenshot below for a better idea of what we are building:
+
+
+![alt text](src/image/layout.png)
